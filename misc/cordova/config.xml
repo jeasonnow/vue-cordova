@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<widget id="<!-- @echo cordova.packageName -->" version="<!-- @echo build.version -->">
+
+    <name><!-- @echo build.appName --></name>
+
+    <description>
+        <!-- @echo build.appName --> - <!-- @echo build.description -->
+    </description>
+
+    <author email="<!-- @echo build.email -->" href="http://app8848.com/">
+        <!-- @echo build.copyright -->
+    </author>
+
+    <content src="index.html" />
+
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="Orientation" value="<!-- @echo cordova.preference.Orientation -->" />
+    <preference name="WebViewBounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
+    <preference name="android-windowSoftInputMode" value="adjustResize" />
+
+    <!--不带后缀png的文件名, 默认是screen-->
+    <preference name="SplashScreenBackgroundColor" value="#000000" />
+    <preference name="SplashScreen" value="splash" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="12000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreen" value="true"/>
+    <preference name="FadeSplashScreenDuration" value="950"/>
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <!-- ios video行内播放 需在video标签中添加webkit-playsinline="true" 才有效 -->
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <!-- 添加lantu 标识 -->
+    <preference name="AppendUserAgent" value="lantuMobilecampus lantuMC" />
+	<preference name="xwalkVersion" value="xwalk_core_library:18+" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" />
+
+</widget>
