@@ -7,7 +7,17 @@
 >
 > config (构建配置)
 >
-> dist ()
+> dist (构建输出文件夹)
+>
+> misc (cordova配置相关)
+>> cordova (cordova1文件夹)
+>>> keystore (签名文件夹)
+>
+> src (主工程目录：作为开发目录)
+> 
+> static (静态资源文件夹)
+
+*本工程基于一个与该工程同级的插件文件夹，默认为MC.Lib，用于存储插件*
 
 
 ## Build Setup
