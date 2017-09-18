@@ -3,11 +3,11 @@
 > A Vue+cordova project
 
 > build (构建文件夹)
->> app (应用构建方法)
+>> app (应用构建方法)
 >
 > config (构建配置)
 >
-> dist (构建输出文件夹)
+> dist (构建输出文件夹)
 >
 > misc (cordova配置相关)
 >> cordova (cordova1文件夹)
@@ -17,7 +17,7 @@
 > 
 > static (静态资源文件夹)
 
-*本工程基于一个与该工程同级的插件文件夹，默认为MC.Lib，用于存储插件*
+*本工程基于一个与该工程同级的插件文件夹，默认为MC.Lib，用于存储插件*
 
 
 ## Build Setup
