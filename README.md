@@ -1,5 +1,7 @@
 # vue-cordova
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jeasonnow/vue-cordova.svg)](https://greenkeeper.io/)
+
 > A Vue+cordova project
 
 > build (构建文件夹)
